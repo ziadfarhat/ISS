@@ -4,7 +4,7 @@ from PIL import Image
 import numpy as np
 
 # Load the video file
-video_path = 'iss.mp4'  # Replace with your video path
+video_path = 'iss.mp4'  # Video Path
 cap = cv2.VideoCapture(video_path)
 
 # Collect frames from the video
